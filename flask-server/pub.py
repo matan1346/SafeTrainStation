@@ -8,8 +8,8 @@ CHANNEL = "detection-channel"
 the_update = None
 
 pnconfig = PNConfiguration()
-pnconfig.publish_key = "pub-c-82a0abf0-186c-47ae-8db9-ef683eb3a68c"
-pnconfig.subscribe_key = "sub-c-bd5ecdfe-113b-11ec-b08e-9adb7f1f2877"
+pnconfig.publish_key = "PUBLISH KEY"
+pnconfig.subscribe_key = "SUBSCRIBE KEY"
 pnconfig.uuid = "serverUUID-PUB"
 
 pubnub = PubNub(pnconfig)

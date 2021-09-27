@@ -48,7 +48,7 @@ export class CameraViewComponent implements OnInit {
 
     if (this.camera) {
       this.station = this.stationsService.getStationByID(this.camera.stationID);
-      this.baseURL = `https://cross-rails-detection.s3.us-east-2.amazonaws.com/${this.station.id}/${this.camera.id}/`;
+      this.baseURL = `S3 URL/${this.station.id}/${this.camera.id}/`;
     }
 
 

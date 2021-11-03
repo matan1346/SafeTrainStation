@@ -16,12 +16,6 @@ export class AlertCountPipe implements PipeTransform {
     else{
       return (stationOrCamera as Camera).alerts.filter(a => a.seen == false).length;
     }
-
-    // let notifictionsCount = 0;
-    // for(let camera of stationOrCamera?.cameras){
-    //   notifictionsCount += camera.alerts.filter(a => a.seen == false).length; //camera.notificationCount ?  camera.notificationCount : 0 ;
-    // }
-    // return notifictionsCount;
   }
 
 }
